@@ -5,10 +5,10 @@
 First of all, clone this repository and run `yarn` in the cloned directory.
 This repo has all what you need to get going, most notably:
 
-* `Next.re` with the bindings you need to get started
-* `Fetcher.re` with fetch which works both client and server side
-* `Types.re` with the types you expect to be working with and respective decoders
-* `_document.js` to get your CSS bundled with the HTML from server from the get go
+* `src/Next.re` with the bindings you need to get started
+* `src/Fetcher.re` with fetch which works both client and server side
+* `src/Types.re` with the types you expect to be working with and respective decoders
+* `pages/_document.js` to get your CSS bundled with the HTML from server from the get go
 
 ## Running the project
 
