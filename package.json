@@ -1,0 +1,30 @@
+{
+  "name": "next-js-dojo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bs-dirty-build": "bsb -make-world",
+    "bs-build": "bsb -clean-world -make-world",
+    "bs-clean": "bsb -clean-world",
+    "bs-watch": "yarn bs-build -w",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@glennsl/bs-json": "^4.0.0",
+    "bs-css": "^8.0.4",
+    "bs-platform": "^5.0.4",
+    "emotion-server": "9.2.12",
+    "next": "^8.1.0",
+    "next-transpile-modules": "^2.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "reason-react": "^0.7.0"
+  }
+}

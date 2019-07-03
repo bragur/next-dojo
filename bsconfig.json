@@ -1,0 +1,33 @@
+{
+  "name": "next-js-dojo",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "dir": "pages",
+      "subdirs": true
+    },
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@glennsl/bs-json",
+    "bs-css",
+    "reason-react"
+  ],
+  "warnings": {
+    "error": "+101"
+  },
+  "bsc-flags": ["-bs-super-errors", "-w @a-102-30-40-42-45-48-4-9-3", "-open Belt"],
+  "namespace": true,
+  "refmt": 3,
+  "reason": {
+    "react-jsx": 3
+  }
+}
