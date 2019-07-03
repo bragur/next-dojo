@@ -69,4 +69,4 @@ Caveat: I didn't have much time to test out the various APIs and didn't check ou
 
 ## Step 6
 
-Have some beers 🍻
+Have some beers and have a look at [Now by Zeit](https://now.sh) and how that can work wonders for you in conjunction with NextJs 🍻
