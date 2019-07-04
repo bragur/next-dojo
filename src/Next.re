@@ -1,4 +1,6 @@
-let inject = (_cls, _fn) => [%bs.raw {| _cls.getInitialProps = _fn |}];
+let inject = (_cls: Js.t({..}) => ReasonReact.reactElement, _fn) => [%bs.raw
+  {| _cls.getInitialProps = _fn |}
+];
 
 module Link = {
   [@bs.module "next/link"] [@react.component]
