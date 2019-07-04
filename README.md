@@ -45,7 +45,7 @@ Retrieve information from `https://apis.is/tv` and display the information.
 * Use the provided `Fetcher` module to fetch a list of Tv Channels in `getInitialProps` and pass it on to your `Index` page, which now you may use as a fully fledged Tv Channel Information guide.
 * Display the name of each tv station available
 
-Bonus Question: Why do you have to use Isomorphic Fetch in the `IsomorphicFetch` module?
+Bonus Question: Why do you have to use Isomorphic Fetch in the `Fetcher` module?
 
 ## Step 4
 
