@@ -1,4 +1,4 @@
-let inject = (_cls: Js.t({..}) => ReasonReact.reactElement, _fn) => [%bs.raw
+let inject = (_cls: Js.t({..}) => React.element, _fn) => [%bs.raw
   {| _cls.getInitialProps = _fn |}
 ];
 
